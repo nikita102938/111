@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Up</class>
+ <widget class="QWidget" name="Up">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>603</width>
+    <height>464</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>603</width>
+    <height>464</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>603</width>
+    <height>464</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+	
+	background-color: rgb(255, 255, 255);
+	color: black;
+}
+</string>
+  </property>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>-1</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+	
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>Изменение цветка</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>35</y>
+     <width>250</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+	
+	font: 9pt &quot;MS Shell Dlg 2&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>Название цветка который нужно изменить</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>70</y>
+     <width>200</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+background-color: rgb(197, 197, 197);
+}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="udel">
+   <property name="geometry">
+    <rect>
+     <x>246</x>
+     <y>109</y>
+     <width>130</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:hover {
+	background-color: rgb(180, 252, 255);
+	transition: 0.5s;
+}
+QPushButton {
+	border: 1px solid black;
+    border-radius:  10px;
+	transition: 0.5s;
+	font-size: 12px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Найти цветок   🔎 </string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>150</y>
+     <width>581</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="1">
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+	text-align: center;
+}</string>
+      </property>
+      <property name="text">
+       <string>Название цветка</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="lineEdit_2">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+background-color: rgb(207, 207, 207);
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLabel" name="label_3">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+	text-align: center;
+}</string>
+      </property>
+      <property name="text">
+       <string>Где находится</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="lineEdit_3">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+background-color: rgb(207, 207, 207);
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLabel" name="label_4">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+	text-align: center;
+}</string>
+      </property>
+      <property name="text">
+       <string>Необходимый объем воды</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="lineEdit_4">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+background-color: rgb(207, 207, 207);
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLabel" name="label_5">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+	text-align: center;
+}</string>
+      </property>
+      <property name="text">
+       <string>Отличительные черты</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="lineEdit_5">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+background-color: rgb(207, 207, 207);
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QLabel" name="label_6">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+	text-align: center;
+}</string>
+      </property>
+      <property name="text">
+       <string>Поливать раз во сколько дней</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="1">
+     <widget class="QLineEdit" name="lineEdit_6">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+background-color: rgb(207, 207, 207);
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="udel_2">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>410</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:hover {
+	background-color: rgb(216, 216, 216);
+	transition: 0.5s;
+}
+QPushButton {
+	border: 1px solid black;
+    border-radius:  10px;
+	transition: 0.5s;
+	font-size: 12px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Изменить ⚙️</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="udel_3">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>110</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:hover {
+	background-color: rgb(184, 184, 184);
+	transition: 0.5s;
+}
+QPushButton {
+	border: 1px solid black;
+    border-radius:  10px;
+	transition: 0.5s;
+	font-size: 16px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Скрыть 🛠️</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="error">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>118</y>
+     <width>224</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {	
+	font: 10px &quot;MS Shell Dlg 2&quot;;
+	color: rgb(240, 41, 41);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
